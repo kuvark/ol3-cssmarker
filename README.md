@@ -1,13 +1,19 @@
 # ol3-cssmarker
-Font Awesome Markers with CSS
 
-Ol3 has Overlay feature. So we can import html inside it. 
+[ol3-cssmarker] is css based font awesome marker solution for Openlayers 3.
 
-This basic code shows you how to add a css based marker with font awesome icon. 
+## Getting Started
 
-<b>addMarker(color,text,iconclass, coordinate)<b> <br>
-      <b>color</b>: hex code of color or rgb (etc: #7fcbc9)<br>
-      <b>text</b>: Popup content <br>
-      <b>iconclass</b> :  Font Awesome icon class (etc: fa fa-bluetooth) <br>
-      <b>coordinate</b> : Lat & Lon <br>
+- Download the [latest release](http://openlayers.org/download/)
+- Install with npm: `npm install openlayers`
+- Clone the repo: `git clone git@github.com:openlayers/ol3.git`
+
+## Usage
+
+addMarker("#7fcbc9","Here is a bluetooth device","fa fa-bluetooth",[32.776175,39.896764]);
+
+
+## License
+
+- Do whatever you want
 
